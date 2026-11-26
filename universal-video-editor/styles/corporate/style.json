@@ -1,0 +1,7 @@
+{
+  "id": "corporate",
+  "name": "Corporate",
+  "default_transition": "cut",
+  "title_case": "sentence",
+  "caption_safe_margin": 0.08
+}

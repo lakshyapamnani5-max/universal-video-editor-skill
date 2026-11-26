@@ -1,0 +1,9 @@
+{
+  "id": "editorial-motion",
+  "name": "Editorial Motion Graphics",
+  "description": "Presenter-led explainers with kinetic typography, infographics, UI cards and clean sound design.",
+  "category": "motion-graphics",
+  "palette": {"background": "#F5F1E9", "foreground": "#171717", "accent": "#E65B4F"},
+  "motion": {"headline": "slide_up", "emphasis": "wipe", "cards": "stagger", "charts": "draw_on"},
+  "layout": {"default_presenter": "presenter_bottom", "safe_margin_percent": 8}
+}

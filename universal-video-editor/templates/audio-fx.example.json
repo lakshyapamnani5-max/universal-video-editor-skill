@@ -1,0 +1,15 @@
+{
+  "voice_chain": [
+    {"effect": "highpass", "frequency_hz": 80},
+    {"effect": "noise_reduction", "mode": "optional", "strength": "light"},
+    {"effect": "compressor", "threshold_db": -18, "ratio": 2.5, "attack_ms": 10, "release_ms": 120},
+    {"effect": "equalizer", "preset": "speech_presence"},
+    {"effect": "limiter", "ceiling_db": -1.5}
+  ],
+  "creative_presets": {
+    "deep_cinematic": [{"effect": "pitch_shift", "semitones": -2}, {"effect": "reverb", "mix": 0.10}],
+    "radio": [{"effect": "bandpass", "low_hz": 300, "high_hz": 3400}, {"effect": "light_distortion", "mix": 0.04}],
+    "echo_emphasis": [{"effect": "delay", "time_ms": 180, "feedback": 0.18, "mix": 0.12}]
+  },
+  "mix": {"music_ducking": true, "target_lufs": -14, "true_peak_db": -1.5}
+}

@@ -1,0 +1,50 @@
+{
+  "project": "Editorial Motion Graphics Reel",
+  "canvas": {"width": 1080, "height": 1920, "fps": 30, "safe_margin_percent": 8},
+  "brand": {
+    "background": "#F5F1E9",
+    "foreground": "#171717",
+    "accent": "#E65B4F",
+    "font_heading": "YourLicensedDisplayFont.ttf",
+    "font_body": "YourLicensedSansFont.ttf",
+    "logo": "../media/logo.png"
+  },
+  "presenter": {
+    "source": "../media/presenter.mp4",
+    "layout": "presenter_bottom",
+    "panel": {"x": 0.08, "y": 0.60, "width": 0.84, "height": 0.30},
+    "corner_radius": 28,
+    "fit": "cover"
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "start": 0.0,
+      "end": 4.5,
+      "layout": "presenter_bottom",
+      "background": {"type": "color", "value": "#F5F1E9"},
+      "elements": [
+        {"type": "headline", "text": "YOU DON'T NEED", "x": 0.08, "y": 0.10, "width": 0.84, "style": "bold_display", "animation": {"enter": "slide_up", "duration": 0.45}},
+        {"type": "emphasis", "text": "MORE TOOLS.", "x": 0.08, "y": 0.19, "width": 0.84, "style": "accent_underline", "animation": {"enter": "wipe", "duration": 0.55}}
+      ],
+      "audio_cues": [{"id": "soft_whoosh", "time": 0.35, "gain_db": -14}]
+    },
+    {
+      "id": "proof-point",
+      "start": 4.5,
+      "end": 10.0,
+      "layout": "presenter_bottom",
+      "background": {"type": "color", "value": "#F5F1E9"},
+      "elements": [
+        {"type": "stat_card", "label": "YOUR KEY METRIC", "value": "SOURCE_VALUE", "x": 0.10, "y": 0.12, "width": 0.80, "animation": {"enter": "pop", "duration": 0.5}}
+      ],
+      "audio_cues": []
+    }
+  ],
+  "audio": {
+    "voice": {"highpass_hz": 80, "noise_reduction": "optional", "compressor": "gentle", "limiter": true},
+    "music": {"path": "../media/music.wav", "gain_db": -20, "duck_under_voice": true},
+    "effects": []
+  },
+  "export": {"format": "mp4", "video_codec": "h264", "crf": 18, "audio_codec": "aac"}
+}

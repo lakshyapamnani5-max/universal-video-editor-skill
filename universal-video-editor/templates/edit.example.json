@@ -1,0 +1,48 @@
+{
+  "name": "Sample Social Video",
+  "output": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "crf": 20,
+    "preset": "medium"
+  },
+  "clips": [
+    {
+      "src": "../media/clip1.mp4",
+      "start": 0,
+      "end": 8.5,
+      "fit": "cover",
+      "speed": 1.0,
+      "fade_in": 0.25,
+      "fade_out": 0.25
+    }
+  ],
+  "titles": [
+    {
+      "text": "A NEW STORY",
+      "start": 0.4,
+      "duration": 2.8,
+      "position": "top",
+      "font_size": 68,
+      "color": "white",
+      "box": true
+    }
+  ],
+  "captions": null,
+  "audio": {
+    "music": null,
+    "music_gain": 0.12,
+    "source_gain": 1.0,
+    "normalize": true
+  },
+  "look": {
+    "brightness": 0,
+    "contrast": 1.04,
+    "saturation": 1.06
+  },
+  "styles": [
+    "cinematic",
+    "creator"
+  ]
+}

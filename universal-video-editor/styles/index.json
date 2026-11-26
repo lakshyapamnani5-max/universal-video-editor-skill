@@ -1,0 +1,54 @@
+{
+  "styles": [
+    {
+      "id": "cinematic",
+      "name": "Cinematic",
+      "description": "Measured pacing, restrained titles, rich but natural contrast."
+    },
+    {
+      "id": "corporate",
+      "name": "Corporate",
+      "description": "Clean typography, brand-safe transitions, clear hierarchy."
+    },
+    {
+      "id": "creator",
+      "name": "Creator / Reels",
+      "description": "Punchy pacing, bold captions, energetic titles."
+    },
+    {
+      "id": "documentary",
+      "name": "Documentary",
+      "description": "Editorial titles, natural colour and story-first rhythm."
+    },
+    {
+      "id": "podcast",
+      "name": "Podcast",
+      "description": "Speaker-led framing, clear subtitles and restrained graphics."
+    },
+    {
+      "id": "travel",
+      "name": "Travel",
+      "description": "Atmospheric montage, location titles and smooth transitions."
+    },
+    {
+      "id": "faceless",
+      "name": "Faceless",
+      "description": "Narration-led structure, visual evidence and readable captions."
+    },
+    {
+      "id": "3d-explainer",
+      "name": "3D Explainer",
+      "description": "Space for dimensional graphics, diagrams and animated objects."
+    },
+    {
+      "id": "minimal",
+      "name": "Minimal",
+      "description": "Quiet transitions, generous negative space and subtle motion."
+    },
+    {
+      "id": "editorial-motion",
+      "name": "Editorial Motion Graphics",
+      "description": "Presenter-led explainers with animated typography, infographics and UI cards."
+    }
+  ]
+}
